@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "GeoGuessr Game Assistant",
+    "version": "1.0",
+    "permissions": ["activeTab", "tabs", "windows"],
+    "page_action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": "images/aiicon.png"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+  }
+  }
